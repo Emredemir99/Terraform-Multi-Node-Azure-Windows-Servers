@@ -53,6 +53,8 @@
 | data_disk_count_per_vm        | Data Disk count                                                  | number       |
 
 
+# Notes
+Ansible Roles -> winrm.ps1 : line 170
 
 
 Author Information

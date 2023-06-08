@@ -167,7 +167,7 @@ $myWindowsID = [System.Security.Principal.WindowsIdentity]::GetCurrent()
 $myWindowsPrincipal = new-object System.Security.Principal.WindowsPrincipal($myWindowsID)
 
 # Get the security principal for the Administrator role
-$adminRole = [System.Security.Principal.WindowsBuiltInRole]::yourrolename
+$adminRole = [System.Security.Principal.WindowsBuiltInRole]::adminusername
 
 # Check to see if we are currently running "as Administrator"
 
